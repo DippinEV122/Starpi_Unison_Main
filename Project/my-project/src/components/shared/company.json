@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_companies",
+  "info": {
+    "displayName": "company"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "href": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    }
+  }
+}

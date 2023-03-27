@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_other_types",
+  "info": {
+    "displayName": "Other types",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

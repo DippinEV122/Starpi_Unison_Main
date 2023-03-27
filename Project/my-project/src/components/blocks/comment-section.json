@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_comment_sections",
+  "info": {
+    "displayName": "CommentSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CommentSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.customer-section"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

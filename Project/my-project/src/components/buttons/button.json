@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Lable": {
+      "type": "string"
+    },
+    "Img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "API": {
+      "type": "string"
+    }
+  }
+}

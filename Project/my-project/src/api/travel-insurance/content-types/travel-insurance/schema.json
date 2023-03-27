@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travel_insurances",
+  "info": {
+    "singularName": "travel-insurance",
+    "pluralName": "travel-insurances",
+    "displayName": "TravelInsurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Where": {
+      "type": "enumeration",
+      "enum": [
+        "India",
+        "China",
+        "Australia",
+        "America",
+        "Brazil",
+        "France",
+        "Russia",
+        "Ukraine",
+        "Ireland",
+        "Norway"
+      ]
+    },
+    "PlanType": {
+      "type": "enumeration",
+      "enum": [
+        "Individual/Family",
+        "Group"
+      ]
+    },
+    "frequency": {
+      "type": "enumeration",
+      "enum": [
+        "Single Trip",
+        "Multi Trip"
+      ]
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "Travellers": {
+      "type": "integer"
+    },
+    "Number": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_fact_sections",
+  "info": {
+    "displayName": "factSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "facts_1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.facts"
+    },
+    "facts_2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.facts2"
+    },
+    "SubHeading": {
+      "type": "string"
+    }
+  }
+}

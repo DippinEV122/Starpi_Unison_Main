@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_titles_logos",
+  "info": {
+    "displayName": "Logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "UNISON"
+    },
+    "Description": {
+      "type": "string",
+      "default": "UNPARALLED INSURANCE SOLUTION"
+    },
+    "coverImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

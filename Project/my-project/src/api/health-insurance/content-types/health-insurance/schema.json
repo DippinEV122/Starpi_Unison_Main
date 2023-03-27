@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_insurances",
+  "info": {
+    "singularName": "health-insurance",
+    "pluralName": "health-insurances",
+    "displayName": "HealthInsurance"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InsureType": {
+      "type": "enumeration",
+      "enum": [
+        "One Adult",
+        "Two Adult"
+      ]
+    },
+    "Children": {
+      "type": "integer"
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Number": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Pincode": {
+      "type": "string"
+    }
+  }
+}

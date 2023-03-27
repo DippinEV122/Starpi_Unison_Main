@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_insurance_sections",
+  "info": {
+    "displayName": "InsuranceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Types": {
+      "displayName": "InsuranceTypes",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insurance-types"
+    },
+    "OtherTypes": {
+      "displayName": "Other types",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.other-types"
+    },
+    "other_lable": {
+      "type": "string"
+    }
+  }
+}

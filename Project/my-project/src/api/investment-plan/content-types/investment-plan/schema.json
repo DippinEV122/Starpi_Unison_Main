@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "investment_plans",
+  "info": {
+    "singularName": "investment-plan",
+    "pluralName": "investment-plans",
+    "displayName": "Investment Plan"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Invest": {
+      "type": "string"
+    },
+    "Mode": {
+      "type": "enumeration",
+      "enum": [
+        "Monthly",
+        "Quarterly",
+        "healf-Yearly",
+        "Yearly"
+      ]
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "PinCode": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "biginteger"
+    }
+  }
+}

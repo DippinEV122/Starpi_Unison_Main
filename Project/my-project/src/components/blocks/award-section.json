@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_award_sections",
+  "info": {
+    "displayName": "AwardSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "awards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::award.award"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

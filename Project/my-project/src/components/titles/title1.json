@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_titles_title1s",
+  "info": {
+    "displayName": "Title1"
+  },
+  "options": {},
+  "attributes": {
+    "Lable": {
+      "type": "string"
+    }
+  }
+}

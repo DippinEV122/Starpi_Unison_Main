@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "term_insurances",
+  "info": {
+    "singularName": "term-insurance",
+    "pluralName": "term-insurances",
+    "displayName": "TermInsurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AnnualIncome": {
+      "type": "string"
+    },
+    "Smoke": {
+      "type": "boolean"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "Pincode": {
+      "type": "string"
+    },
+    "MobileNumber": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

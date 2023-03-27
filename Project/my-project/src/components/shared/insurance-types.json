@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_insurance_types",
+  "info": {
+    "displayName": "InsuranceTypes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "string"
+    },
+    "Href": {
+      "type": "string"
+    },
+    "CoverImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lable2": {
+      "type": "string"
+    }
+  }
+}

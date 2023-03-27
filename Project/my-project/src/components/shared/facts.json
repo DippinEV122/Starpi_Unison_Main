@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_facts",
+  "info": {
+    "displayName": "facts1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "lable": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "lable2": {
+      "type": "string"
+    }
+  }
+}
